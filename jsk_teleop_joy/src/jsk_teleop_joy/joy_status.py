@@ -471,19 +471,19 @@ class PS3DummyStatus(JoyStatus):
             self.square = True
         else:
             self.square = False
-        if msg.buttons[14] == 1:
+        if msg.buttons[13] == 1:
             self.up = True
         else:
             self.up = False
-        if msg.buttons[13] == 1:
+        if msg.buttons[14] == 1:
             self.down = True
         else:
             self.down = False
-        if msg.buttons[16] == 1:
+        if msg.buttons[15] == 1:
             self.left = True
         else:
             self.left = False
-        if msg.buttons[15] == 1:
+        if msg.buttons[16] == 1:
             self.right = True
         else:
             self.right = False
