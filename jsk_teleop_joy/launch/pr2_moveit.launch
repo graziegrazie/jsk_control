@@ -13,13 +13,13 @@
         '0rarm':
            class: 'JoyMoveIt'
            args:
-             frame_id: '/odom_combined'
+             frame_id: 'r_wrist_roll_link'
              pose: "/rviz/moveit/move_marker/goal_r_wrist_roll_link"
              planning_group: "right_arm"
         '1larm':
            class: 'JoyMoveIt'
            args:
-             frame_id: '/odom_combined'
+             frame_id: 'l_wrist_roll_link'
              pose: "/rviz/moveit/move_marker/goal_l_wrist_roll_link"
              planning_group: "left_arm"
         '2base':
